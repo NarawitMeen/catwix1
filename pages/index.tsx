@@ -4,7 +4,6 @@ import Image from 'next/image'
 export default function index() {
   return (
     <>
-    //first
     <div className=' flex bg-gradient-to-r from-indigo-600 to-teal-700 font-serif min-h-screen'>
       <div className='text-white h-fit mt-40 ml-24 bg-red-300'>
         <h1 className='text-6xl'>Discover New</h1>
@@ -17,7 +16,6 @@ export default function index() {
       </div>
     </div>
 
-    //second
     <div className='flex bg-white font-serif min-h-screen'>
       <div className='h-fit w-fit mt-40 ml-24'>
         <h1 className='text-6xl'>Reinventing Mobile</h1>
@@ -77,7 +75,6 @@ export default function index() {
       </div>
     </div>
 
-    //fouth
     <div className ="contanier min-h-screen bg-white ">
       <div className='container flex mt-24'>
         <div className='h-fit w-96 ml-48'>
@@ -114,7 +111,6 @@ export default function index() {
       </div>
     </div>
 
-    //fifth
     <div className='text-white bg-gradient-to-r from-indigo-600 to-teal-700 font-serif min-h-screen'>
       <div className='flex text-white font-serif '>
         <div className='ml-48 mt-48'>
@@ -131,7 +127,6 @@ export default function index() {
       </div>
     </div>
 
-    //six
     <div className='flex-col bg-white font-serif min-h-screen'>
       <div className='h-fit w-fit mt-36 ml-40'>
         <h1 className='text-5xl'>Satisfied Customers</h1>
@@ -168,13 +163,6 @@ export default function index() {
     </div>
 
     //seven
-
-    //eight
-    <div className='flex bg-slate-200 min-h-screen'>
-        <div className=''>
-          <h1 className='text-3xl'>Go on</h1>
-        </div>
-    </div>
     </>
   )
 }
