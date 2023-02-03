@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Navbar() {
   return (
         <div className='container bg-black flex justify-between h-20 w-full font-serif text-white sticky top-0'>
-            <div className='flex justify-center items-center ml-24'>
+            <div className='flex justify-center items-center ml-24 space-x-2'>
+                <Image src='/gas-costs-svgrepo-com.svg' alt='' width={40} height={40}></Image>
                 <h1 className='text-xl'>Go on</h1>
             </div>
             <ul className='flex jusify-centrer items-center mr-20'>
